@@ -2,7 +2,7 @@ pipeline {
     agent none
 
     environment {
-        BUILD_SERVER = "ec2-user@ip"
+        BUILD_SERVER = "ec2-user@172.31.13.218"
         IMAGE_NAME   = "mukeshtho/phpapp:php${BUILD_NUMBER}"
     }
 
