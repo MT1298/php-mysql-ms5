@@ -1,4 +1,4 @@
-Pipeline {
+pipeline {
     agent none
 
     environment {
@@ -7,7 +7,7 @@ Pipeline {
 
     }
     stages{
-        stage () {
+        stage ('Build the php application') {
             agent any 
             steps {
                 script {
